@@ -1,0 +1,313 @@
+moltt = "Moltt"
+moltt.
+Invisível
+
+churrasco com seu jorge — 11/07/2023 18:36
+eu botei 300
+churrasco com seu jorge — 11/07/2023 19:09
+c ta ligado que em case não tem código né?
+moltt = "Moltt" — 11/07/2023 19:09
+osh ?
+e pra fazer oque será
+churrasco com seu jorge — 11/07/2023 19:10
+desmuta
+o rafael manja
+vcs vão se reunir em grupo pra discutir como vão resolver o problema
+ja manda no chat "Nem noé"
+churrasco com seu jorge — 11/07/2023 19:37
+desmuta
+vai carai
+só pra dar um gosto
+moltt = "Moltt" — 08/09/2023 20:32
+Imagem
+churrasco com seu jorge — 12/10/2023 11:26
+(?<=naosei)
+moltt = "Moltt" — 17/10/2023 19:30
+https://drive.google.com/drive/u/0/folders/16O7tqN_altmr98C5SLjzsFMT6Ja2fCre
+Google Drive: Sign-in
+Access Google Drive with a Google account (for personal use) or Google Workspace account (for business use).
+moltt = "Moltt" — 22/10/2023 20:12
+from json import loads
+import requests
+from datetime import datetime
+from bs4 import BeautifulSoup
+import urllib.parse
+import re
+Expandir
+inicia_teste.py
+10 KB
+moltt = "Moltt" — 22/10/2023 20:32
+Imagem
+churrasco com seu jorge — 22/10/2023 21:33
+https://youtu.be/HXlcGTc7RU4
+YouTube
+Ivete Gonçalves Skazera
+Cabaret Mineiro   1980   Cinema Nacional
+Imagem
+moltt = "Moltt" — 22/10/2023 21:41
+Que isso kk
+churrasco com seu jorge — 22/10/2023 21:42
+https://youtu.be/IN-3LLDUviA
+YouTube
+Dolynho mil grau
+Vamo dança  tudo nu  [remix]
+Imagem
+moltt = "Moltt" — 22/10/2023 21:42
+kkkkkkkkkkkkk
+moltt = "Moltt" — 22/10/2023 23:35
+https://www.youtube.com/watch?v=_KaA8W_Hov8&ab_channel=TierryOficial
+YouTube
+Tierry Oficial
+Tierry, Manoel Gomes - LÁ ELE - Clipe Oficial
+Imagem
+churrasco com seu jorge — 22/10/2023 23:36
+https://youtu.be/IN-3LLDUviA
+YouTube
+Dolynho mil grau
+Vamo dança  tudo nu  [remix]
+Imagem
+churrasco com seu jorge — 24/10/2023 20:14
+Imagem
+churrasco com seu jorge — 24/10/2023 20:29
+https://www.translatorscafe.com/unit-converter/pt-PT/numbers/1-39/binary-base-36/
+Converter binary <—> base-36 • Numbers Converter • Conversores de U...
+Conversão de unidades de medição de binary para base-36 (—).
+moltt = "Moltt" — 24/10/2023 20:30
+1021333-65.2019.8.26.0053
+https://esaj.tjsp.jus.br/cpopg/show.do?localPesquisa.cdLocal=53&processo.codigo=1H000F1YA0001&processo.foro=53
+churrasco com seu jorge — 26/10/2023 14:16
+https://angryip.org/
+Angry IP Scanner - the original IP scanner for Windows, Mac and Linux
+The original IP scanner for Windows, Max and Linux. Fast, friendly, extensible, free and open-source. Scans addresses and ports in any range and exports results in many formats.
+ssh moltt@192.168.1.6
+churrasco com seu jorge — 26/10/2023 14:33
+bat --paging=never sf.sh --color=always | bat -A -pp --color=never
+churrasco com seu jorge — 26/10/2023 15:07
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+Expandir
+message.txt
+4 KB
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+GitHub
+GitHub - romkatv/powerlevel10k: A Zsh theme
+A Zsh theme. Contribute to romkatv/powerlevel10k development by creating an account on GitHub.
+GitHub - romkatv/powerlevel10k: A Zsh theme
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+churrasco com seu jorge — 26/10/2023 21:00
+sudo date -s "$(wget --method=HEAD -qSO- --max-redirect=0 google.com 2>&1 | sed -n 's/^ *Date: *//p')"
+churrasco com seu jorge — 29/10/2023 15:00
+Imagem
+moltt = "Moltt" — 30/10/2023 20:42
+Tipo de arquivo em anexo: acrobat
+COMUM_STEAM_Banco_de_Dados_APS.pdf
+188.05 KB
+churrasco com seu jorge — 30/10/2023 20:48
+Imagem
+moltt = "Moltt" — 30/10/2023 20:48
+Tipo de arquivo em anexo: acrobat
+Ativadade_A1_-_Luana_Luena_Laura_Claudia_sei_lah....pdf
+512.62 KB
+moltt = "Moltt" — 30/10/2023 21:01
+CREATE TABLE FUNC_UPPER (CD_REGISTRO INT IDENTITY (1,1) NOT NULL, NM_FUNC VARCHAR(80) NOT NULL,
+DT_AUMENTO DATE NULL, VL_AUMENTO FLOAT NULL, CONSTRAINT PK_REGISTRO PRIMARY KEY (CD_REGISTRO))
+
+SELECT * FROM FUNC_UPPER
+
+CREATE TABLE END_RESIDENCIAL (CD_END INT IDENTITY (1,1) NOT NULL,LOGRADOURO VARCHAR(80) NULL,
+NUMERO VARCHAR(10) NULL, BAIRRO VARCHAR(80) NULL, CONSTRAINT PK_END PRIMARY KEY (CD_END),
+CONSTRAINT FK_END FOREIGN KEY (CD_END) REFERENCES FUNC_UPPER (CD_REGISTRO))
+
+SELECT * FROM END_RESIDENCIAL
+
+CREATE TABLE EQUIPE (CD_EQUIPE INT IDENTITY (1,1) NOT NULL,NM_EQUIPE VARCHAR(80),
+CONSTRAINT PK_EQUIPE PRIMARY KEY (CD_EQUIPE),
+CONSTRAINT FK_EQUIPE FOREIGN KEY (CD_EQUIPE)  REFERENCES END_RESIDENCIAL (CD_END))
+
+SELECT * FROM EQUIPE
+
+CREATE TABLE PROJETOS (CD_PROJ INT IDENTITY (1,1) NOT NULL,NM_PROJ VARCHAR(80) NOT NULL, DT_INICIO DATE NOT NULL,
+DT_TERMINO DATE NOT NULL,DT_PREV_TERMINO DATE NULL, HR_REAL VARCHAR(20) NULL,
+HR_PREV VARCHAR(20) NULL, STATUS VARCHAR(30), CONSTRAINT PK_PROJ PRIMARY KEY (CD_PROJ),
+CONSTRAINT FK_PROJ FOREIGN KEY (CD_PROJ) REFERENCES EQUIPE (CD_EQUIPE))
+
+SELECT * FROM PROJETOS
+
+CREATE TABLE TELEFONE (CD_TEL INT IDENTITY (1,1) NOT NULL, TEL_RESIDENCIAL VARCHAR(15) NULL,
+TEL_COMERCIAL VARCHAR(15) NULL, TEL_CELULAR VARCHAR(15) NULL, TEL_RAMAL VARCHAR(15) NULL,
+CONSTRAINT PK_TEL PRIMARY KEY (CD_TEL),
+CONSTRAINT FK_TEL FOREIGN KEY (CD_TEL) REFERENCES PROJETOS (CD_PROJ))
+
+SELECT * FROM  TELEFONE
+moltt = "Moltt" — 30/10/2023 21:13
+-- Tabela de Recurso CREATE TABLE Recurso (     Nome VARCHAR(255) PRIMARY KEY,     NumeroRegistro INT,     Salario DECIMAL(10, 2) );  -- Tabela de Telefone de Contato CREATE TABLE TelefoneContato (     RecursoNome VARCHAR(255),     TipoTelefone VARCHAR(50),     NumeroTelefone VARCHAR(20),     PRIMARY KEY (RecursoNome, TipoTelefone),     FOREIGN KEY (RecursoNome) REFERENCES Recurso(Nome) );  -- Tabela de Endereço Residencial CREATE TABLE EnderecoResidencial (     RecursoNome VARCHAR(255),     Endereco VARCHAR(255),     PRIMARY KEY (RecursoNome),     FOREIGN KEY (RecursoNome) REFERENCES Recurso(Nome) );  -- Tabela de Ferramenta de Programação CREATE TABLE FerramentaProgramacao (     Nome VARCHAR(255) PRIMARY KEY,     Versao VARCHAR(50) );  -- Tabela de RecursoFerramenta (para a relação muitos-para-muitos) CREATE TABLE RecursoFerramenta (     RecursoNome VARCHAR(255),     FerramentaNome VARCHAR(255),     PRIMARY KEY (RecursoNome, FerramentaNome),     FOREIGN KEY (RecursoNome) REFERENCES
+moltt = "Moltt" — 30/10/2023 21:49
+O nome do flash e Pietro
+Pietro Maximoff Mercúrio (também conhecido no Brasil como Relâmpago, Homem-Relâmpago e Raio Prateado) tem como nome verdadeiro Pietro Maximoff, irmão gêmeo de Wanda, a Feiticeira Escarlate, e possui super-velocidade, sendo o herói mais veloz da Marvel Comics.
+churrasco com seu jorge — 02/11/2023 13:21
+https://learn.microsoft.com/en-us/linux/install
+How to download and install Linux
+Download and install Linux in this tutorial that covers how to choose a distribution, how to use the install command with Windows Subsystem for Linux, create a bootable USB for Bare-metal, or set up a Virtual Machine.
+How to download and install Linux
+moltt = "Moltt" — 03/11/2023 17:25
+APU PUBLICA DO cONSELHO NACIONAL DE JUSTIÇA
+churrasco com seu jorge — 03/11/2023 17:25
+https://datajud-wiki.cnj.jus.br/api-publica/
+API Pública | Datajud-Wiki
+A API Pública do Datajud é uma ferramenta que permite o acesso público aos metadados de processos judiciais de todo o Brasil. Os dados disponibilizados pela API são originários da Base Nacional de Dados do Poder Judiciário (Datajud) e seguem os critérios estabelecidos pela Portaria Nº 160 de 09/09/2020 bem como o resguardo de processos sigilosos...
+moltt = "Moltt" — 23/02/2024 17:16
+https://pje1g.trf3.jus.br/pje/seam/resource/rest/pje-legacy/documento/download/%7Bcodigo_fim%7D
+moltt = "Moltt" — 19/03/2024 19:39
+Copiar e colar os códigos no formulário.    Criar uma classe livros onde deverá conter:    Titulo do livro    Autor    Ano de Publicação    Quantidade de Páginas    Apresentar pelo menos três livros cadastrados.    Enviar  o código para o forms postado no ambiente acadêmico até o dia 19/03 –vale 1,0 ponto N1
+churrasco com seu jorge — 19/03/2024 19:50
+package io.github.seujorgenochurras;
+
+import java.time.LocalDate;
+
+public class Book {
+    String tittle;
+    String authorName;
+    LocalDate publicationDate;
+    Integer pageCount;
+
+    public String tittle() {
+        return tittle;
+    }
+
+    public Book setTittle(String tittle) {
+        this.tittle = tittle;
+        return this;
+    }
+
+    public String authorName() {
+        return authorName;
+    }
+
+    public Book setAuthorName(String authorName) {
+        this.authorName = authorName;
+        return this;
+    }
+
+    public LocalDate publicationDate() {
+        return publicationDate;
+    }
+
+    public Book setPublicationDate(LocalDate publicationDate) {
+        this.publicationDate = publicationDate;
+        return this;
+    }
+
+    public Integer pageCount() {
+        return pageCount;
+    }
+
+    public Book setPageCount(Integer pageCount) {
+        this.pageCount = pageCount;
+        return this;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Book book = (Book) o;
+
+        if (!tittle.equals(book.tittle)) return false;
+        if (!authorName.equals(book.authorName)) return false;
+        if (!publicationDate.equals(book.publicationDate)) return false;
+        return pageCount.equals(book.pageCount);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = tittle.hashCode();
+        result = 31 * result + authorName.hashCode();
+        result = 31 * result + publicationDate.hashCode();
+        result = 31 * result + pageCount.hashCode();
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "tittle='" + tittle + '\'' +
+                ", authorName='" + authorName + '\'' +
+                ", publicationDate=" + publicationDate +
+                ", pageCount=" + pageCount +
+                '}';
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Book harryPotter = new Book()
+                .setAuthorName("Jane Doe")
+                .setTittle("Harry potter e a pedra diferente")
+                .setPageCount(412)
+                .setPublicationDate(LocalDate.of(2000, 10, 1));
+        Book bible = new Book()
+                .setAuthorName("Moises")
+                .setTittle("Bible")
+                .setPageCount(4212)
+                .setPublicationDate(LocalDate.of(2000, 1, 11));
+        Book howIMetYourMother = new Book()
+                .setAuthorName("Jhon Doe")
+                .setTittle("How I Met Your Mother")
+                .setPageCount(122)
+                .setPublicationDate(LocalDate.of(2010, 6, 3));
+    }
+}
+churrasco com seu jorge — Hoje às 12:52
+Tipo de arquivo em anexo: unknown
+gitignore
+3.05 KB
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/src/main/resources/application.properties
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+.env
+.gradle
+jars
+META-INF
+out
+src/main/resources/images/*.png
+src/main/resources/images/*.jpg
+﻿
+churrasco com seu jorge
+churrasco_com_seu_jorge
+75% cs
+24% intellij
